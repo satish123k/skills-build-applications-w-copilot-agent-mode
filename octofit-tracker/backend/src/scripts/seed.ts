@@ -67,5 +67,5 @@ async function seedDatabase() {
     process.exit(1);
   }
 }
-
+// Seed the database when this script is run directly
 seedDatabase();
